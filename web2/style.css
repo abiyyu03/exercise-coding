@@ -1,3 +1,23 @@
+.card {
+   font-family: sans-serif;
+   width: 300px;
+   background: white;
+   padding: 30px;
+   margin: auto;
+   border-radius: 40%;
+}
+body {
+   background-color: gray;
+
+}
+
+h2 {
+   text-align: center;
+}
+
+p {
+   color: #2b2b2b;
+}
 /* TASK 5 : Atur font default ke Arial atau sans-serif */
 
 /* TASK 6 : Buat background halaman berwarna abu muda */
