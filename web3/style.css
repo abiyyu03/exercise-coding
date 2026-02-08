@@ -1,3 +1,36 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   height: 100vh;
+   display: flex;
+}
+.container {
+   margin-right: auto;
+   margin-left: auto;
+   display: flex;
+   padding: 50px;
+   gap: 40px;
+}
+.box1 {
+   background-color: red;
+   width:70px;
+   height: auto;
+   border-radius: 5px;
+}
+.box2 {
+   background-color: orange;
+   width:70px;
+   height: auto;
+   border-radius: 5px;
+}
+.box3 {
+   background-color: yellow;
+   width:70px;
+   height: auto;
+   border-radius: 5px;
+}
 /* TASK 5 : Reset margin dan padding semua elemen (atur nilai keduanya jadi 0) */
 
 /* TASK 6 : Atur body
