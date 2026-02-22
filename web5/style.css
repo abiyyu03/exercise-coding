@@ -1,3 +1,31 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   background-image: linear-gradient(to left, white, black, grey);
+   font-size: large;
+   font-family: fantasy;
+}
+ul{
+   list-style-type: none; 
+   display: flex;
+   gap: 30px;
+   margin-right: 100px;
+}
+ul li{
+   transition: 0.5s;
+   border-radius: 6px;
+   padding: 10px;
+   text-decoration: none;
+}
+ul li:hover{
+   background: linear-gradient(90deg, #0061FF, #60EFFF, #451f56);
+   text-decoration: underline;
+}
 /* TODO 6 : Reset margin & padding */
 
 /* TODO 7 : Styling .navbar
