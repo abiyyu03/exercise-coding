@@ -1,3 +1,35 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+body {
+   height: 100vh;
+   margin: auto;
+   background-image: linear-gradient(to bottom, aquamarine, white, black);
+}
+h2 {
+   margin-bottom: 50px;
+   font-size: xx-large;
+}
+.container {
+   justify-content: center;
+   display: flex;
+   gap: 100px;
+}
+.box {
+   width: 200px;
+   height: 60px;
+   background-image: linear-gradient(to bottom, white, #8585ff, #ccccfe); 
+   border-radius: 3px;
+   box-shadow: 1px 4px 6px 8px black;
+   transition:0.3s;
+   padding: 10px;
+}
+.box:hover {
+   transform: scale(1.1);
+   background: linear-gradient(90deg, #0061FF, #60EFFF);
+}
 /* TODO 7 : Reset margin dan padding semua elemen */
 
 /* TODO 8 : Atur body
