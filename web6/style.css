@@ -1,0 +1,50 @@
+/* TODO 7 : Reset margin & padding */
+
+/* TODO 8 : Atur body
+   - tinggi 100vh
+   - display flex
+   - center container
+   - background gelap
+*/
+
+/* TODO 9 : Styling .container
+   - display flex
+   - beri jarak antar card
+*/
+
+/* TODO 10 : Styling .card
+   - position relative
+   - ukuran tetap
+   - overflow hidden
+   - border radius
+   - cursor pointer
+*/
+
+/* TODO 11 : Styling .image
+   - background-image
+   - background-size cover
+   - tinggi penuh
+   - transition 0.5s
+*/
+
+/* TODO 12 : Styling .overlay
+   - position absolute
+   - tutup seluruh card
+   - background rgba gelap transparan
+   - opacity 0
+   - tampilkan teks di tengah
+   - transition 0.3s
+*/
+
+/* TODO 13 : Hover Effect
+   - saat .card di-hover:
+        .image zoom (scale lebih besar)
+        .overlay opacity jadi 1
+*/
+
+/* TODO 14 : Styling button
+   - padding
+   - border none
+   - border radius
+   - hover warna berubah
+*/
