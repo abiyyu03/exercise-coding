@@ -1,3 +1,56 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   text-align: center;
+   background: linear-gradient(to bottom, #439cfb, #f187fb);
+}
+
+.container {
+   display: flex;
+   gap: 50px;
+   margin: auto;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card1, .card2, .card3 {
+   position: relative;
+   width: fit-content;
+   overflow: hidden;
+   border-radius: 100px;
+   background-color: #439cfb;
+   cursor: pointer;
+   color: rgb(171, 171, 70);
+   padding-top: 30px;
+}
+
+.image img {
+   width: 100px;
+   border-radius: 50px;
+}
+
+.overlay {
+   background: rgba(0, 0, 0, 0.717);
+   text-align: center;
+   padding-bottom: 30px;
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+   opacity: 1;
+   transform: scale(1.1);
+   transition: 0.5s;
+   border:5px solid rgb(52, 52, 255);
+}
+
+button {
+   padding: 10px;
+   border: none;
+   border-radius: 30px;
+}
 /* TODO 7 : Reset margin & padding */
 
 /* TODO 8 : Atur body
